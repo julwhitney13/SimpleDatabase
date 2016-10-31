@@ -9,7 +9,8 @@ With a file:
 python SimpleDatabase.py < <filename>
 ```
 or inputted commands:
-```python SimpleDatabase.py
+```
+python SimpleDatabase.py
 SET a 1
 GET a
 <other commands>
@@ -17,7 +18,9 @@ END
 ```
 
 ## Testing
-```pytest tests```
+```
+pytest tests
+```
 
 # Sample Database Solution
 SimpleDatabase is an in-memory database similar to Redis. It receives commands via standard input (stdin), writes appropriate responses to standard output (stdout).
